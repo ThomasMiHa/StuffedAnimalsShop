@@ -12,7 +12,19 @@ namespace StuffedAnimalsShop
         { }
         double quantity = 79;
         double prod_price = 9.5;
+        protected string type;
+        protected double priceprod;
 
+        public Dog(string type, double priceprod)
+        {
+            this.type = type;
+            this.priceprod = priceprod;
+        }
+
+        public virtual string ExtraType()
+        {
+            return "Dog";
+        }
         public override double TotalPrice()
         {
             return quantity * prod_price;

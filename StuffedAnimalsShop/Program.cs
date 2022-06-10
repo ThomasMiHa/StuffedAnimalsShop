@@ -21,7 +21,13 @@ namespace StuffedAnimalsShop
             {
                 Console.WriteLine("The stuffed animal " + stuffedAnimal.GetType().Name + " has stock of " + stuffedAnimal.Quantity() + " pieces left, with total price: " + stuffedAnimal.TotalPrice() + " Lei");
             }
+            //decorator
+            Dog ndog = new Dog();
+            Console.Write("\nSpecial offer for stuffed animal: " + ndog.ExtraType() + "\n");
+            ndog = new Nametag(ndog);
+            Console.WriteLine("> contains: " + ndog.ExtraType());
 
+            //for memento
             Order order1 = new Order();
             order1.ProductName = "Dog with nametag";
             order1.Price = 14.5;
