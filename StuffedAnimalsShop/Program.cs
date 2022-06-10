@@ -19,8 +19,12 @@ namespace StuffedAnimalsShop
 
             foreach (var stuffedAnimal in animal)
             {
-                Console.WriteLine("The stuffed animal " + stuffedAnimal.GetType().Name + " got bought");
+                Console.WriteLine("The stuffed animal " + stuffedAnimal.GetType().Name + " has stock of " + stuffedAnimal.Quantity() + " pieces left, with total price: " + stuffedAnimal.TotalPrice() + " Lei");
             }
+
+            Order order1 = new Order();
+            order1.ProductName = "Dog with nametag";
+            order1.Price = 14.5;
         }
     }
 }
