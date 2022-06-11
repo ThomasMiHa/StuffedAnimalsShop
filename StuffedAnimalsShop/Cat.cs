@@ -10,8 +10,8 @@ namespace StuffedAnimalsShop
     {
         public Cat()
         { }
-        double quantity = 25;
-        double prod_price = 8.5;
+        new double quantity = 25;
+        new double prod_price = 8.5;
 
         public override double TotalPrice()
         {
@@ -21,6 +21,10 @@ namespace StuffedAnimalsShop
         public override double Quantity()
         {
             return quantity;
+        }
+        public override double ProdPrice()
+        {
+            return prod_price;
         }
     }
 }

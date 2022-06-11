@@ -10,8 +10,8 @@ namespace StuffedAnimalsShop
     {
         public Cow()
         { }
-        double quantity = 28;
-        double prod_price = 14.5;
+        new double quantity = 28;
+        new double prod_price = 14.5;
 
         public override double TotalPrice()
         {
@@ -21,6 +21,10 @@ namespace StuffedAnimalsShop
         public override double Quantity()
         {
             return quantity;
+        }
+        public override double ProdPrice()
+        {
+            return prod_price;
         }
     }
 }

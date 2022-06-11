@@ -10,20 +10,12 @@ namespace StuffedAnimalsShop
     {
         public Dog()
         { }
-        double quantity = 79;
-        double prod_price = 9.5;
-        protected string type;
-        protected double priceprod;
-
-        public Dog(string type, double priceprod)
-        {
-            this.type = type;
-            this.priceprod = priceprod;
-        }
+        new double quantity = 79;
+        new double prod_price = 9.5;
 
         public virtual string ExtraType()
         {
-            return "Dog";
+            return GetType().Name;
         }
         public override double TotalPrice()
         {
@@ -32,6 +24,10 @@ namespace StuffedAnimalsShop
         public override double Quantity()
         {
             return quantity;
+        }
+        public override double ProdPrice()
+        {
+            return prod_price;
         }
     }
 }

@@ -12,13 +12,10 @@ namespace StuffedAnimalsShop
         protected double quantity;
         public Animal()
         { }
-        public Animal(double p)
-        {
-            this.prod_price = p;
-        }
-
         public abstract double TotalPrice();
 
         public abstract double Quantity();
+
+        public abstract double ProdPrice();
     }
 }
