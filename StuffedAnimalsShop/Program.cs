@@ -12,9 +12,9 @@ namespace StuffedAnimalsShop
         {
             var animal = new List<Animal>()
             {
-                new Dog(),
-                new Cat(),
-                new Cow()
+                new Dog(9.5, 59),
+                new Cat(8.5, 25),
+                new Cow(14.5, 28)
             };
 
             foreach (var stuffedAnimal in animal)
@@ -23,7 +23,7 @@ namespace StuffedAnimalsShop
             }
 
             //decorator
-            Dog ndog = new Dog();
+            Dog ndog = new Dog(9.5, 59);
             /*Console.Write("\nSpecial offer for stuffed animal: " + ndog.ExtraType() + "\n");*/
 
             //for memento - originator

@@ -6,16 +6,30 @@ using System.Threading.Tasks;
 
 namespace StuffedAnimalsShop
 {
-    public abstract class Animal
+    public class Animal
     {
         protected double prod_price;
-        protected double quantity;
+        protected int quantity;
         public Animal()
         { }
-        public abstract double TotalPrice();
+        public double TotalPrice()
+        {
+            return quantity * prod_price;
+        }
 
-        public abstract double Quantity();
+        public double Quantity()
+        {
+            return quantity;
+        }
 
-        public abstract double ProdPrice();
+        public double ProdPrice()
+        {
+            return prod_price;
+        }
+
+    public virtual string ExtraType()
+        {
+            return GetType().Name;
+        }
     }
 }
