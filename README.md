@@ -1,11 +1,28 @@
 # StuffedAnimalsShop
 
-Materia: Medii si platforme de dezvoltare avansate
+Update 2023:
+
+Materia: Managementul proiectelor complexe
 
 Student: Hallmen Thomas Michael
 Facultate: ULBS - Stiinte
 Specializare: Sisteme si tehnologii informatice avansate
-An: 1
+An: 2
+
+Azure DevOps:
+https://dev.azure.com/hallmenthomasm/ProjectMPC
+
+Bitbucket:
+https://bitbucket.org/stuffedanimalshop/stuffedanimalsshop/src/master/
+
+Jira – agile board:
+https://thomas-ha.atlassian.net/jira/software/c/projects/TEST1/boards/1
+
+
+/////////////////////////////////////////////////////////////////////////////
+
+
+Materia: Medii si platforme de dezvoltare avansate
 
 __________________________________________________________________________________________________________________________________________________________________________
 
