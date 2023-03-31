@@ -5,8 +5,11 @@ Update 2023:
 Materia: Managementul proiectelor complexe
 
 Student: Hallmen Thomas Michael
+
 Facultate: ULBS - Stiinte
+
 Specializare: Sisteme si tehnologii informatice avansate
+
 An: 2
 
 Azure DevOps:
